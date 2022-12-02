@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    position: relative;
+}
+.logo{
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+    color: #fff;
+    text-align: left;
+    line-height: 100px;
+    font-size: 30px;
+}
+.nav-links{
+    position: absolute;
+    line-height: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -75px;
+    margin-left: 25rem;
+}
+.nav-links li{
+    list-style: none;
+    margin-right: 20px;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: rgb(214, 15, 15);
+}
+.nav-links li a:hover{
+    color: #fff;
+    transition: 0.5s;
+}
