@@ -21,7 +21,7 @@
     display: flex;
     justify-content: flex-end;
     margin-top: -75px;
-    margin-left: 25rem;
+    margin-left: 65rem;
 }
 .nav-links li{
     list-style: none;
@@ -34,4 +34,32 @@
 .nav-links li a:hover{
     color: #fff;
     transition: 0.5s;
+}
+
+/* Menu Icon */
+.menuIcon{
+    height: 50px;
+    position: absolute;
+    margin-top: -75px;
+    margin-left: 80rem;
+    display: none;
+}
+
+
+@media  screen and (max-width: 768px) {
+    .nav-links{
+        /* display: none; */
+        margin-left: 0;
+        margin-top: 20px;
+        display: block;
+        margin-left: 8rem;
+    }
+    .logo{
+        width:100%;
+        font-size: 22px;
+    }
+    .menuIcon{
+        display: block;
+        margin-left: 15rem;
+    }
 }
