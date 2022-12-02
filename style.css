@@ -52,7 +52,10 @@
         margin-left: 0;
         margin-top: 20px;
         display: block;
+        background-color: aquamarine;
         margin-left: 8rem;
+        overflow: hidden;
+        transition: 0.5;
     }
     .logo{
         width:100%;
